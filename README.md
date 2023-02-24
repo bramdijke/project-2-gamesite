@@ -15,7 +15,7 @@
 <p>Er zijn nog een stuk meer specifieke eisen voor de website. Die zijn te vinden in de lijst van eisen op Canvas.</p>
 
 ## Wat heb ik gedaan?
-<p>Mijn taak was om de pagina's te maken voor PC. Ik heb het volgende gemaakt voor dit project</p>
+<p>Mijn taak was om de pagina's te maken voor PC. Ik heb het volgende gemaakt voor dit project:</p>
 <ul>
   <li>Home pagina</li>
   <li>Navbar (excl. dropdown menu)</li>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="ps5payform-head">
+    <div class="nav-box">
+      <div class="header-nav">
+        <nav>
+          <a href="index.html"><img src="../img/synthwaveicon.png" alt="Homepagina icon" height="100%" /></a>
+          <ul>
+            <li class="nav-dropdown">
+              <div class="dropbtn">
+                <a href="games.html">Games</a>
+                <div class="dropdown-content">
+                  <a href="games-ns.html">NS</a>
+                  <a href="games-pc.html">PC</a>
+                  <a href="games-ps5.html">PS5</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-dropdown">
+              <div class="dropbtn">
+                <a href="review.html">Review</a>
+                <div class="dropdown-content">
+                  <a href="review-ns.html">NS</a>
+                  <a href="review-pc.html">PC</a>
+                  <a href="review-ps5.html">PS5</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-dropdown">
+              <div class="dropbtn">
+                <a href="store.html">Store</a>
+                <div class="dropdown-content-store">
+                  <a href="store-ns.html">NS</a>
+                  <a href="store-pc.html">PC</a>
+                  <a href="store-ps5.html">PS5</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="payform">
+      <div class="payform__box">
+        <div class="payform__box__image_ps5">
+          <img src="../img/ark-card.webp" alt="game icon" />
+        </div>
+        <div class="payform__box__data">
+          <h3>Your Details</h3>
+          <form class="payform__box__data__form">
+            <input
+              class="payform__box__data__form__input"
+              type="text"
+              id="fname"
+              placeholder="First name"
+              required
+            />
+            <input
+              class="payform__box__data__form__input"
+              type="text"
+              id="lname"
+              placeholder="Last name"
+              required
+            />
+            <input
+              class="payform__box__data__form__input"
+              type="email"
+              placeholder="Your email"
+              required
+            />
+            <input
+              class="payform__box__data__form__input"
+              type="phone"
+              placeholder="Phone"
+              required
+            />
+            <select
+              class="payform__box__data__form__input"
+              id="cars"
+              name="cars"
+            >
+              <option value="select">Choose bank:</option>
+              <option value="abnamro">ABN AMRO</option>
+              <option value="ing">ING</option>
+              <option value="rabobank">Rabobank</option>
+            </select>
+            <div class="payform__box__data__form__gender">
+              <input type="radio" name="gender" value="male" required /><label
+                >Male</label
+              >
+              <input type="radio" name="gender" value="female" /><label
+                >Female</label
+              >
+            </div>
+
+            <label class="payform__box__data__form__check">
+              <input type="checkbox" name="checkbox" required />
+              <p>I'm not a robot</p>
+            </label>
+            <input
+              class="payform__box__data__form__submit"
+              type="submit"
+              value="Done"
+              required
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footertext">
+    <h3>Made By:</h3>
+    <p>Bram van Dijke</p>
+    <p>Maximiliaan de Bruijn</p>
+    <p>Bart Slagboom</p>
+</div>
+</footer>
+</body>
+
+</html>

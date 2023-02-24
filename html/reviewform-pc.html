@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="../img/6619686_0 (1).png" />
+    <title>Review Form | TCR</title>
+  </head>
+  <body class="pcform-body">
+    <header class="pcform-head">
+      <div class="nav-box">
+        <div class="header-nav">
+          <nav>
+            <a href="index.html"
+              ><img
+                src="../img/synthwaveicon.png"
+                alt="Homepagina icon"
+                height="100%"
+            /></a>
+            <ul>
+              <li class="nav-dropdown">
+                <div class="dropbtn">
+                  <a href="#">Games</a>
+                  <div class="dropdown-content">
+                    <a href="games-ns.html">NS</a>
+                    <a href="games-pc.html">PC</a>
+                    <a href="games-ps5.html">PS5</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-dropdown">
+                <div class="dropbtn">
+                  <a href="#">Review</a>
+                  <div class="dropdown-content">
+                    <a href="review-ns.html">NS</a>
+                    <a href="review-pc.html">PC</a>
+                    <a href="review-ps5.html">PS5</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-dropdown">
+                <div class="dropbtn">
+                  <a href="#">Store</a>
+                  <div class="dropdown-content-store">
+                    <a href="store-ns.html">NS</a>
+                    <a href="store-pc.html">PC</a>
+                    <a href="store-ps5.html">PS5</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="pc-reviewform">
+        <div class="pc-reviewform__box">
+          <div class="pc-reviewform__box__header">
+            <h2>REVIEW <span>FORM</span></h2>
+          </div>
+          <h3>Your Details</h3>
+          <form class="pc-reviewform__box__form">
+            <input
+              class="pc-reviewform__box__form__input"
+              type="text"
+              id="displayname"
+              placeholder="Display name"
+              required
+            />
+            <div class="pc-reviewform__box__form__file">
+                <label>Profile picture:</label>
+            <input
+              type="file"
+              accept=".png, .jpg, .jpeg, .svg, .jfif"
+              required
+            />
+        </div>
+            <select
+              class="pc-reviewform__box__form__input"
+              id="games"
+              name="games"
+            >
+              <option value="select">Choose Game:</option>
+              <option value="cyberpunk2077">Cyberpunk 2077</option>
+              <option value="r6siege">Rainbow Six Siege</option>
+              <option value="minecraft">Minecraft</option>
+              <option value="rdr2">Red Dead Redemption II</option>
+              <option value="codmw2">Call of Duty: Modern Warfare II</option>
+              <option value="overwatch2">Overwatch 2</option>
+              <option value="theforest">The Forest</option>
+              <option value="phasmophobia">Phasmophobia</option>
+              <option value="ark">Ark: Survival Evolved</option>
+              <option value="fnafsb">Five Nights At Freddy's: Security Breach</option>
+            </select>
+            <input
+              class="pc-reviewform__box__form__input"
+              type="number"
+              min="0.1"
+              max="10"
+              step="0.1"
+              id="reviewgrade"
+              placeholder="Game Grade"
+              required
+            />
+            <input
+              class="pc-reviewform__box__form__input"
+              type="email"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              placeholder="Review message"
+              class="pc-reviewform__box__form__textarea"
+            ></textarea>
+
+            <label class="pc-reviewform__box__form__check">
+              <input type="checkbox" name="checkbox" required />
+              <p>I'm not a robot</p>
+            </label>
+            <input
+              class="pc-reviewform__box__form__submit"
+              type="submit"
+              value="Done"
+              required
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footertext">
+        <h3>Made By:</h3>
+        <p>Bram van Dijke</p>
+        <p>Maximiliaan de Bruijn</p>
+        <p>Bart Slagboom</p>
+      </div>
+    </footer>
+  </body>
+</html>
